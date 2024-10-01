@@ -1,5 +1,5 @@
 function getLicenseCardTemplate() {
-    return fetch('../html/license_card.html') // Ensure the path is correct
+    return fetch('./html/license_card.html') // Ensure the path is correct
         .then(response => response.text())
         .catch(error => console.error('Error loading license card template:', error));
 }
