@@ -10,6 +10,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Sample project data
 const projects = [
     {
+        name: "Chinese Chess",
+        image: "assets/images/chinese_chess.png",
+        description: "Chinese Chess power by Godot, apply Machine Learning for automatically playing",
+        technologies: "Godot Engine, ML",
+        link: "https://github.com/truongpnx/chinesechess"
+    },
+    {
         name: "String Art",
         image: "assets/images/string_art.png",
         description: "Machine Learning in String Art",
