@@ -10,6 +10,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Sample project data
 const projects = [
     {
+        name: "Currency Exchanger",
+        image: "assets/images/currency_exchange.png",
+        description: "Currency Exchanger is an Android application designed to convert currencies by fetching the latest exchange rates from Exchange Rates API",
+        technologies: "Android Studio, Retrofit, Kotlin",
+        link: "https://github.com/truongpnx/CurrencyExchange"
+    },
+    {
         name: "Chinese Chess",
         image: "assets/images/chinese_chess.png",
         description: "Chinese Chess power by Godot, apply Machine Learning for automatically playing",
