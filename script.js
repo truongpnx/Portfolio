@@ -10,6 +10,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Sample project data
 const projects = [
     {
+        name: "Anime Watching Web",
+        image: "assets/images/anime_web.png",
+        description: "Anime Web is a platform for anime fans to browse and manage anime series and episodes. It features a responsive React front-end and a robust back-end powered by Express.js and MongoDB for efficient data management.",
+        technologies: "React, sassCSS, NodeJS with ExpressJS, MongoDB",
+        link: "https://github.com/truongpnx/Anime-Web"
+    },
+    {
         name: "Currency Exchanger",
         image: "assets/images/currency_exchange.png",
         description: "Currency Exchanger is an Android application designed to convert currencies by fetching the latest exchange rates from Exchange Rates API",
