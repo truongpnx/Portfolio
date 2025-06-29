@@ -1,4 +1,5 @@
 import { personalInfo } from '../data/portfolio';
+import avatarImg from '../assets/avatar.png';
 
 export const About = () => {
   return (
@@ -12,7 +13,21 @@ export const About = () => {
           
           <div className="space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed">
             <div className="text-center mb-8">
-              <div className="mb-4">
+              <div className="mb-6">
+                <div className="relative inline-block mb-4">
+                  <img 
+                    src={avatarImg} 
+                    alt="Truong Xuan Pham Nguyen"
+                    className="w-32 h-32 rounded-full mx-auto border-4 border-gradient-to-r from-blue-500 to-purple-600 shadow-lg object-cover"
+                  />
+                  <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
+                    <img 
+                      src={avatarImg} 
+                      alt="Truong Xuan Pham Nguyen"
+                      className="w-full h-full rounded-full object-cover"
+                    />
+                  </div>
+                </div>
                 <h3 className="text-3xl font-bold text-gray-800 dark:text-white mb-2">
                   {personalInfo.name}
                 </h3>
